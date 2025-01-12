@@ -7,10 +7,10 @@ const cartKey = 'so-cart';
 function addProductToCart(product) {
   // gets existing data
   let cartItems = getLocalStorage(cartKey) || [];
-  
+
   // appends new item to list
   cartItems.push(product);
-  
+
   // sets new value to local storage
   setLocalStorage(cartKey, cartItems);
 }
