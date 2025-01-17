@@ -21,3 +21,11 @@ export function setClick(selector, callback) {
   });
   qs(selector).addEventListener("click", callback);
 }
+
+// parameter extraction from url
+export function getParams(param) {
+  const queryString = window.location.search;
+  const urlParmas = new URLSearchParams(queryString);
+  const paramId = urlParmas.get(param);
+  return paramId;
+}
