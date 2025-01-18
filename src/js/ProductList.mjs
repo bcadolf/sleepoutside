@@ -1,3 +1,19 @@
+import { RenderListWithTemplate } from './utils.mjs';
+
+function productCardTemplate(product) {
+  return `<li class="product-card">
+    <a href="product_pages/?product=${product.Id}">
+      <img
+        src="${product.Image}"
+        alt="${product.Name}"
+      />
+      <h3 class="card__brand">${product.Brand.Name}</h3>
+      <h2 class="card__name">${product.NameWithoutBrand}</h2>
+      <p class="product-card__price">${product.FinalPrice}</p>
+    </a>
+  </li>`;
+}
+
 export default class ProductListing {
   constructor(category, dataSource, listElement) {
     this.category = category;
@@ -8,10 +24,33 @@ export default class ProductListing {
 
   async init() {
     this.productList = await this.dataSource.getData();
-    // this.renderProductList();
+    this.renderList(this.productList);
   }
 
-  renderProductList() {
-    target = document.querySelector(this.listElement);
+  renderList(list) {
+    RenderListWithTemplate(
+      productCardTemplate,
+      this.listElement,
+      list,
+      'afterbegin',
+      true,
+    );
+    // const htmlStrings = this.productList.map(productCardTemplate);
+    // console.log(htmlStrings);
+    // this.listElement.insertAdjacentHTML('afterbegin', htmlStrings.join(''));
+    // this.listElement.innerHTML = '';
+    // this.productList.forEach((product) => {
+    //   this.listElement.innerHTML += productCardTemplate(product);
+    // });
+  }
+
+  renderFilteredList() {
+    RenderListWithTemplate(
+      productCardTemplate,
+      this.listElement,
+      this.productList.slice(0, 4),
+      'afterbegin',
+      true,
+    );
   }
 }

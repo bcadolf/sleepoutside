@@ -29,3 +29,11 @@ export default function getParams(param) {
   const paramId = urlParams.get(param);
   return paramId;
 }
+
+export function RenderListWithTemplate(templateFn, parentElement, list, position = 'afterbegin', clear = false){
+  if(clear){
+    parentElement.innerHTML = '';
+  }
+  const htmlStrings = list.map(templateFn);
+  parentElement.insertAdjacentHTML(position, htmlStrings.join(''));
+}
