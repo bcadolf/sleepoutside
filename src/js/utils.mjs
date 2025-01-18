@@ -23,7 +23,7 @@ export function setClick(selector, callback) {
 }
 
 // parameter extraction from url
-export function getParams(param) {
+export default function getParams(param) {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   const paramId = urlParams.get(param);
