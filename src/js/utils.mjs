@@ -23,17 +23,51 @@ export function setClick(selector, callback) {
 }
 
 // parameter extraction from url
-export default function getParams(param) {
+export function getParams(param) {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   const paramId = urlParams.get(param);
   return paramId;
 }
 
-export function RenderListWithTemplate(templateFn, parentElement, list, position = 'afterbegin', clear = false){
-  if(clear){
+export function RenderListWithTemplate(
+  templateFn,
+  parentElement,
+  list,
+  position = 'afterbegin',
+  clear = false,
+) {
+  if (clear) {
     parentElement.innerHTML = '';
   }
   const htmlStrings = list.map(templateFn);
   parentElement.insertAdjacentHTML(position, htmlStrings.join(''));
+}
+
+export function renderWithTemplate(
+  templateHtml,
+  parentElement,
+  data,
+  callback,
+) {
+  parentElement.innerHTML = '';
+  parentElement.insertAdjacentHTML('afterbegin', templateHtml);
+  if (callback) {
+    callback(data);
+  }
+}
+
+export default async function loadHeaderFooter() {
+  const headerTemplate = await loadTemplate('../partials/header.html');
+  const footerTemplate = await loadTemplate('../partials/footer.html');
+  const headerElement = document.querySelector('header');
+  const footerElement = document.querySelector('footer');
+  renderWithTemplate(headerTemplate, headerElement);
+  renderWithTemplate(footerTemplate, footerElement);
+}
+
+async function loadTemplate(path) {
+  const html = await fetch(path);
+  const template = await html.text();
+  return template;
 }
