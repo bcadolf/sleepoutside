@@ -1,38 +1,57 @@
-import { renderListWithTemplate } from './utils.mjs';
+import { RenderListWithTemplate } from './utils.mjs';
 
 function productCardTemplate(product) {
-    return `
-    <li class='product-card'>
-    <a href='product_pages/index.html?product=${product.Id}'>
-    <img src = '${product.Image}' alt='Image of${product.Name}'>
-    <h3 class= 'card_brand'>${product.Brand.Name}</h3>
-    <h2 class='card__name'>${product.Name}</h2>
-    <p class='product-card_price'>$${product.Finalprice}</p>
+  return `<li class="product-card">
+    <a href="product_pages/?product=${product.Id}">
+      <img
+        src="${product.Image}"
+        alt="${product.Name}"
+      />
+      <h3 class="card__brand">${product.Brand.Name}</h3>
+      <h2 class="card__name">${product.NameWithoutBrand}</h2>
+      <p class="product-card__price">${product.FinalPrice}</p>
     </a>
-    </li>
-    `;
+  </li>`;
 }
 
 export default class ProductListing {
-    constructor(category, dataSource, listElement) {
-        this.category = category;
-        this.dataSource = dataSource;
-        this.listElement = listElement;
-    }    
-
-    async init() {
-        const list = await this.dataSource.getData();
-        console.log('Products ok', list); // testar se carrega os produtos
-        this.renderList(list);
-    }
-
-   //render after doing the first stretch
-  renderList(list) {
-    renderListWithTemplate(productCardTemplate, this.listElement, list);
+  constructor(category, dataSource, listElement) {
+    this.category = category;
+    this.dataSource = dataSource;
+    this.listElement = listElement;
+    this.productList = {};
   }
 
-// renderList(list) {
-//     const htmlStrings = list.map(productCardTemplate);
-//     this.listElement.innerAdjacentHTML('afterbegin', htmlStrings.join(''));
-// }
+  async init() {
+    this.productList = await this.dataSource.getData();
+    this.renderList(this.productList);
+  }
+
+  renderList(list) {
+    RenderListWithTemplate(
+      productCardTemplate,
+      this.listElement,
+      list,
+      'afterbegin',
+      true,
+    );
+    // const htmlStrings = this.productList.map(productCardTemplate);
+    // console.log(htmlStrings);
+    // this.listElement.insertAdjacentHTML('afterbegin', htmlStrings.join(''));
+    // this.listElement.innerHTML = '';
+    // this.productList.forEach((product) => {
+    //   this.listElement.innerHTML += productCardTemplate(product);
+    // });
+  }
+
+  renderFilteredList() {
+    RenderListWithTemplate(
+      productCardTemplate,
+      this.listElement,
+      this.productList.slice(0, 4),
+      'afterbegin',
+      true,
+    );
+  }
 }
+

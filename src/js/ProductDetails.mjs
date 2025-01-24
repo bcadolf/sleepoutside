@@ -1,5 +1,5 @@
-import { setLocalStorage } from './utils.mjs';
 
+import { getLocalStorage, setLocalStorage } from './utils.mjs';
 
 function makeProductCardHtml(product) {
   return `<section class='product-detail'>
@@ -37,11 +37,16 @@ export default class ProductDetails {
   }
 
   addToCart() {
-    setLocalStorage('so-cart', this.product);
+    // get the current cart from local storage
+    const cart = getLocalStorage('so-cart') || [];
+    // add the current product to the cart
+    cart.push(this.product);
+    // save the cart back to local storage
+    setLocalStorage('so-cart', cart);
   }
 
   renderProductDetails(selector) {
     const element = document.querySelector(selector);
-    element.insertAdjacentHTML('afterBegin', makeProductCardHtml(this.product)) ;
+    element.insertAdjacentHTML('afterBegin', makeProductCardHtml(this.product));
   }
 }
