@@ -2,7 +2,7 @@ import { RenderListWithTemplate } from './utils.mjs';
 
 function productCardTemplate(product) {
   return `<li class="product-card">
-    <a href="product-listing/index.html?product=${product.Id}">
+    <a href="/product_pages/index.html?product=${product.Id}">
       <img
         src="${product.Images.PrimaryMedium}"
         alt="${product.Name}"
