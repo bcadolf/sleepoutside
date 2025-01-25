@@ -1,0 +1,44 @@
+{
+  "Result": {
+    "Id": "20DRU",
+    "Category": "tents",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/20dru/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20dru/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Alpine Guide 3 Tent Footprint",
+    "Name": "The North Face Alpine Guide 3 Tent Footprint",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Asphalt Grey",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20dru-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Prolong the life of your tent&#39;s floor with The North Face&#39;s Alpine Guide 3 tent footprint.",
+    "SuggestedRetailPrice": 30,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 15,
+    "FinalPrice": 15
+  }
+}

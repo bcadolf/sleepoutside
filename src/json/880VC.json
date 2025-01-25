@@ -1,0 +1,56 @@
+{
+  "Result": {
+    "Id": "880VC",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/880vc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/880vc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Original Hammock",
+    "Name": "TICKET TO THE MOON Original Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "07",
+        "ColorName": "Orange/Dark Grey",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vc-07.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg"
+      },
+      {
+        "ColorCode": "05",
+        "ColorName": "Royal Blue/Orange",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vc-05.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-royal-blue-orange~p~880vc_05~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Aqua/Pink",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880vc-02.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/ticket-to-the-moon-original-hammock-in-aqua-pink~p~880vc_02~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. You can relax at your campsite or in your own backyard with TICKET TO THE MOON&#39;s original hammock, made with high-grade parachute <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> and skin-friendly dyes.",
+    "SuggestedRetailPrice": 55,
+    "Brand": {
+      "Id": "38562",
+      "Url": "/brand/38562/",
+      "ProductsUrl": "/products?Brand=38562",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/ticket-to-the-moon~b~38562~160x100.jpg",
+      "Name": "TICKET TO THE MOON"
+    },
+    "ListPrice": 34.99,
+    "FinalPrice": 34.99
+  }
+}

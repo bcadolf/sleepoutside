@@ -1,0 +1,87 @@
+{
+  "Result": {
+    "Id": "28UPM",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/28upm/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/28upm/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Urban Assault 21L Backpack",
+    "Name": "Mystery Ranch Urban Assault 21L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_3~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "08",
+        "ColorName": "Lemon",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-08.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Eggplant",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-03.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-eggplant~p~28upm_03~160.jpg"
+      },
+      {
+        "ColorCode": "05",
+        "ColorName": "Forest",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-05.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-forest~p~28upm_05~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Coyote",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-coyote~p~28upm_01~160.jpg"
+      },
+      {
+        "ColorCode": "04",
+        "ColorName": "Flame",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-04.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-flame~p~28upm_04~160.jpg"
+      },
+      {
+        "ColorCode": "09",
+        "ColorName": "Mystery Pop",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upm-09.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-mystery-pop~p~28upm_09~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Mystery Ranch&#39;s Urban Assault 21L backpack is a spacious and comfortable daypack for work, travel and trail. The 3-ZIP design allows ready access to your pack&#39;s contents, and the built-in laptop and tablet sleeves hug you devices closely to the back panel for optimal protection.",
+    "SuggestedRetailPrice": 110,
+    "Brand": {
+      "Id": "37083",
+      "Url": "/brand/37083/",
+      "ProductsUrl": "/products?Brand=37083",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/mystery-ranch-logo.svg",
+      "Name": "Mystery Ranch"
+    },
+    "ListPrice": 69.99,
+    "FinalPrice": 69.99
+  }
+}

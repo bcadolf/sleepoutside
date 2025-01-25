@@ -1,0 +1,52 @@
+{
+  "Result": {
+    "Id": "20GAW",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/20gaw/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20gaw/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "20°F Campforter Long Down Sleeping Bag - 700 Fill Power, Mummy",
+    "Name": "The North Face 20°F Campforter Long Down Sleeping Bag - 700 Fill Power, Mummy",
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy~a~20gaw_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "ZIPPER": [
+        "LH/RH"
+      ]
+    },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Blue Wing Teal/Asphalt Grey",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20gaw-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Snuggle up under the stars with The North Face&#39;s 20&#176;F Campforter long down sleeping bag. It features toasty 700 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> ProDown goose down insulation, an anti-compression bottom filled with HeatSeeker&#174; Pro synthetic insulation and a wraparound zipper that offers easy venting and converts the bag into a quilt.",
+    "SuggestedRetailPrice": 190,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 149.99,
+    "FinalPrice": 149.99
+  }
+}

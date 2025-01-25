@@ -1,0 +1,52 @@
+{
+  "Result": {
+    "Id": "21KMF",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/21kmf/",
+    "Reviews": {
+      "ReviewsUrl": "/api/1.0/reviewsbyproduct/21kmf/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "30°F Mavericks Double Wide Sleeping Bag - Square",
+    "Name": "Marmot 30°F Mavericks Double Wide Sleeping Bag - Square",
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square~a~21kmf_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "ZIPPER": [
+        "LH"
+      ]
+    },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Golden Copper/Dark Olive",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/21kmf-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Designed to share with your special someone, this Marmot Mavericks double wide sleeping bag also zips apart to become two individual bags. Fortified with SpiraFil synthetic insulation for optimal warmth and comfort on chilly nights.",
+    "SuggestedRetailPrice": 212,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 149.99,
+    "FinalPrice": 149.99
+  }
+}

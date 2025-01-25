@@ -1,0 +1,49 @@
+{
+  "Result": {
+    "Id": "15UGY",
+    "Category": "tents",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/15ugy/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/15ugy/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "5-Person Tent - 10x8’, 3-Season",
+    "Name": "Wenzel 5-Person Tent - 10x8’, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season~a~15ugy_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "99",
+        "ColorName": "See Photo",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/see-detail.gif",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. When space is an issue, take along this Northcrest tent, roomy enough to sleep up to five people, and featuring mesh windows, utility pockets and a <a class=\"glossaryTermLink\" href=\"/gear-loft~g~1852\" title=\"Gear Loft: - An overhead storage shelf used in tents. Gear lofts are typically made of lightweight mesh to minimize their impact on the overall weight of the tent. Gear lofts are a good place to stash damp items, particularly when the tent has a roof vent, so socks, hats and T-shirts that were used during the day can dry overnight and be ready to wear in the morning.\">gear loft</a> for storage.",
+    "SuggestedRetailPrice": 120,
+    "Brand": {
+      "Id": "23037",
+      "Url": "/brand/23037/",
+      "ProductsUrl": "/products?Brand=23037",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/wenzel~b~23037~160x100.jpg",
+      "Name": "Wenzel"
+    },
+    "ListPrice": 69,
+    "FinalPrice": 69
+  }
+}

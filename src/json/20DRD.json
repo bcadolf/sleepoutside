@@ -1,0 +1,58 @@
+{
+  "Result": {
+    "Id": "20DRD",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/20drd/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20drd/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Terra 40 L Backpack (For Women)",
+    "Name": "The North Face Terra 40 L Backpack (For Women)",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women~a~20drd_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women~a~20drd_3~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "SIZE": [
+        "M/L",
+        "XS/S"
+      ]
+    },
+    "Colors": [
+      {
+        "ColorCode": "03",
+        "ColorName": "Rabbit Grey/Asphalt Grey",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20drd-03.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Built for all-day comfort on the trail, The North Face&#39;s Terra 40 L backpack features a lightweight design with a versatile floating lid, comfortable cushioned back, self-equalizing Dyno Lift System load lifters and a spacious interior to hold your gear.",
+    "SuggestedRetailPrice": 120,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 79.99,
+    "FinalPrice": 79.99
+  }
+}

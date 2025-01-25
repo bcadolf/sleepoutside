@@ -1,0 +1,50 @@
+{
+  "Result": {
+    "Id": "827MP",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/827mp/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/827mp/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Refuge 2 Hammock",
+    "Name": "Peregrine Refuge 2 Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Mango",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/827mp-02.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Tomato",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/827mp-03.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/peregrine-refuge-2-hammock-in-tomato~p~827mp_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Enjoy relaxation alone or with a partner wherever your travels take you with the breathable, lightweight fabric and integrated suspension of this Peregrine&#39;s Refuge 2 hammock.",
+    "SuggestedRetailPrice": 55,
+    "Brand": {
+      "Id": "35321",
+      "Url": "/brand/35321/",
+      "ProductsUrl": "/products?Brand=35321",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/peregrine~b~35321~160x100.jpg",
+      "Name": "Peregrine"
+    },
+    "ListPrice": 29,
+    "FinalPrice": 29
+  }
+}
