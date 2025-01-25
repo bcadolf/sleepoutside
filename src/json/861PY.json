@@ -33,12 +33,8 @@
       ]
     },
     "SizesAvailable": {
-      "LENGTH": [
-        "REG"
-      ],
-      "ZIPPER": [
-        "R"
-      ]
+      "LENGTH": ["REG"],
+      "ZIPPER": ["R"]
     },
     "Colors": [
       {

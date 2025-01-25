@@ -26,9 +26,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "L"
-        ]
+        "ZIPPER": ["L"]
       },
       "Colors": [
         {
@@ -76,9 +74,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "LH"
-        ]
+        "ZIPPER": ["LH"]
       },
       "Colors": [
         {
@@ -126,9 +122,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "L"
-        ]
+        "ZIPPER": ["L"]
       },
       "Colors": [
         {
@@ -230,12 +224,8 @@
         ]
       },
       "SizesAvailable": {
-        "LENGTH": [
-          "REG"
-        ],
-        "ZIPPER": [
-          "R"
-        ]
+        "LENGTH": ["REG"],
+        "ZIPPER": ["R"]
       },
       "Colors": [
         {
@@ -301,9 +291,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "L"
-        ]
+        "ZIPPER": ["L"]
       },
       "Colors": [
         {
@@ -351,9 +339,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "R"
-        ]
+        "ZIPPER": ["R"]
       },
       "Colors": [
         {
@@ -442,9 +428,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "L"
-        ]
+        "ZIPPER": ["L"]
       },
       "Colors": [
         {
@@ -533,9 +517,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "L"
-        ]
+        "ZIPPER": ["L"]
       },
       "Colors": [
         {
@@ -629,9 +611,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "RH"
-        ]
+        "ZIPPER": ["RH"]
       },
       "Colors": [
         {
@@ -679,9 +659,7 @@
         ]
       },
       "SizesAvailable": {
-        "ZIPPER": [
-          "LH/RH"
-        ]
+        "ZIPPER": ["LH/RH"]
       },
       "Colors": [
         {
