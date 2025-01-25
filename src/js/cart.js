@@ -3,14 +3,20 @@ import loadHeaderFooter from './utils.mjs';
 loadHeaderFooter();
 
 function renderCartContents() {
-  const cartItems = getLocalStorage('so-cart');
-  const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-  document.querySelector('.product-list').innerHTML = htmlItems.join('');
-  cartItems.forEach((item) =>
-    document
-      .getElementById(item.Id)
-      .addEventListener('click', generateRemoveItemHandler(item.Id)),
-  );
+  const cartItems = getLocalStorage('so-cart') || []; //added empty array to avoid error
+  //moved into if statement to only run function if cart has items otherwise display empty message
+  if (cartItems && cartItems.length > 0) {
+    const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+    document.querySelector('.product-list').innerHTML = htmlItems.join('');
+    cartItems.forEach((item) =>
+      document
+        .getElementById(item.Id)
+        .addEventListener('click', generateRemoveItemHandler(item.Id)),
+    );
+  } else {
+    document.querySelector('.product-list').innerHTML =
+      '<p>Your Cart is Empty</p>';
+  }
   calculateSubtotal(); // added to update the subtotal everytime an item is removed from the cart.
 }
 
@@ -50,7 +56,7 @@ function calculateSubtotal() {
   //this is used to add the Final price of each item in the cart to create and diplay a subtotal to the customer.
   let subtotal = 0;
   const cartSubtotal = document.querySelector('.cart-subtotal');
-  const items = getLocalStorage('so-cart');
+  const items = getLocalStorage('so-cart') || []; //added empty array to catch error
   if (items != '') {
     for (var item of items) {
       let cost = item.FinalPrice;
