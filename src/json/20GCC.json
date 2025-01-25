@@ -1,0 +1,50 @@
+{
+  "Result": {
+    "Id": "20GCC",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": true,
+    "Url": "/product/20gcc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20gcc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "15°F Hyper Kazoo Down Sleeping Bag - 800 Fill Power",
+    "Name": "The North Face 15°F Hyper Kazoo Down Sleeping Bag - 800 Fill Power",
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power~a~20gcc_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "ZIPPER": ["RH"]
+    },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Tnf Black/Saxony Blue",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20gcc-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Snuggle up under the stars with The North Face&#39;s 15&#176;F Hyper Kazoo down sleeping bag. It features toasty 800 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> ProDown goose down insulation with Thermobaffle technology to trap heat in the seamless baffles for unprecedented warmth.",
+    "SuggestedRetailPrice": 270,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 229.99,
+    "FinalPrice": 229.99
+  }
+}

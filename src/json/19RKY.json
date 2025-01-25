@@ -1,0 +1,43 @@
+{
+  "Result": {
+    "Id": "19RKY",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/19rky/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/19rky/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "2-Person Air Bed with Pump",
+    "Name": "Sierra Designs 2-Person Air Bed with Pump",
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Blue",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/19rky-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Nod off effortlessly in the tent on this Sierra Designs two-person air bed, with a flocked top for added comfort.",
+    "SuggestedRetailPrice": 35,
+    "Brand": {
+      "Id": "1915",
+      "Url": "/brand/1915/",
+      "ProductsUrl": "/products?Brand=1915",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/sierra-designs~b~1915~160x100.jpg",
+      "Name": "Sierra Designs"
+    },
+    "ListPrice": 24.99,
+    "FinalPrice": 24.99
+  }
+}

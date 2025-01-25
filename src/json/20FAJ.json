@@ -1,0 +1,49 @@
+{
+  "Result": {
+    "Id": "20FAJ",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/20faj/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20faj/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Router Transit Backpack - 41 L",
+    "Name": "The North Face Router Transit Backpack - 41 L",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l~a~20faj_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Zinc Grey Heather/Tnf Black",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/20faj-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. From local commutes to weekend travels, The North Face Router Transit backpack offers plenty of storage for all your travel needs.",
+    "SuggestedRetailPrice": 100,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 69.99,
+    "FinalPrice": 69.99
+  }
+}

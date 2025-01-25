@@ -1,0 +1,49 @@
+{
+  "Result": {
+    "Id": "889DC",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/889dc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/889dc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Amber 60L Backpack (For Women)",
+    "Name": "Gregory Amber 60L Backpack (For Women)",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women~a~889dc_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Pearl Blue",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/889dc-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. The features, TrailFlex suspension and 60-liter capacity of the Gregory Amber 60L backpack combine to hit a sweet spot -- this versatile backpack can cover quick over-night trips and multi-day hikes with equal ease.",
+    "SuggestedRetailPrice": 169.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  }
+}

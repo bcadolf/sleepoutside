@@ -1,0 +1,44 @@
+{
+  "Result": {
+    "Id": "12TGM",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/12tgm/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/12tgm/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "DoubleDeluxe Hammock",
+    "Name": "ENO DoubleDeluxe Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Orange/Grey",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/12tgm-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Hanging out in Eno&#39;s DoubleDeluxe hammock keeps you and your hammock pal swaying in relaxing comfort. With its high-strength <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> ripstop construction and wider design, it&#39;s sure to be a welcome addition at your favorite outdoor spot.",
+    "SuggestedRetailPrice": 80,
+    "Brand": {
+      "Id": "2525",
+      "Url": "/brand/2525/",
+      "ProductsUrl": "/products?Brand=2525/",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 39.99,
+    "FinalPrice": 39.99
+  }
+}

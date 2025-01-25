@@ -1,0 +1,53 @@
+{
+  "Result": {
+    "Id": "889KT",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/889kt/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/889kt/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Stout 65L Backpack",
+    "Name": "Gregory Stout 65L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack~a~889kt_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack~a~889kt_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Navy Blue",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/889kt-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>.<strong> </strong>Built for multi-day trips and globe-trotting travel, the Gregory Stout 65L backpack has all the comfort, advanced pack technology and organizing features you expect from the backpack experts at Gregory.",
+    "SuggestedRetailPrice": 169.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Result": {
+    "Id": "28UPR",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/28upr/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/28upr/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Scree 32 L Backpack",
+    "Name": "Mystery Ranch Scree 32 L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "SIZE": ["L/XL"]
+    },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Cargo",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upr-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Galaxy",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/28upr-02.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-galaxy~p~28upr_02~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Mystery Ranch&#39;s Scree 32 L backpack is a spacious and comfortable daypack for all your outdoor hiking needs. The 3-ZIP design allows ready access to contents, and the removable Redirect waistbelt system secures in a natural, forward pull direction that requires less effort to tighten.",
+    "SuggestedRetailPrice": 170,
+    "Brand": {
+      "Id": "37083",
+      "Url": "/brand/37083/",
+      "ProductsUrl": "/products?Brand=37083",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/mystery-ranch-logo.svg",
+      "Name": "Mystery Ranch"
+    },
+    "ListPrice": 119.99,
+    "FinalPrice": 119.99
+  }
+}

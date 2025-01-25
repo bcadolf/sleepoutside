@@ -1,0 +1,65 @@
+{
+  "Result": {
+    "Id": "665HD",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/665hd/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/665hd/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Maven 45L Backpack - Internal Frame",
+    "Name": "Gregory Maven 45L Backpack - Internal Frame",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "SIZE": ["XS/S", "S/M"]
+    },
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Phoenix Red",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/665hd-02.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Forest Grey",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/665hd-03.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-forest-grey~p~665hd_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. The perfect lightweight companion for peak-bagging and minimalist overnighting, Gregory&#39;s Maven 45L backpack is well-balanced with alloy anti-barreling stays and an HDPE sheet for firm support.",
+    "SuggestedRetailPrice": 149.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  }
+}

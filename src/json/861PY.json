@@ -1,0 +1,77 @@
+{
+  "Result": {
+    "Id": "861PY",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/861py/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/861py/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "50°F Rambler Sleeping Bag - Semi-Rectangular (For Men and Women)",
+    "Name": "Kelty 50°F Rambler Sleeping Bag - Semi-Rectangular (For Men and Women)",
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_2~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_3~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_4~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {
+      "LENGTH": ["REG"],
+      "ZIPPER": ["R"]
+    },
+    "Colors": [
+      {
+        "ColorCode": "04",
+        "ColorName": "Red Sand",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-04.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Fire Orange",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-02.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-fire-orange~p~861py_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Green Apple",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-03.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-green-apple~p~861py_03~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Paradise Blue",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/861py-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-paradise-blue~p~861py_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Kelty&#39;s 50&#176;F Rambler sleeping bag features a semi-rectangular design that keeps you comfortably warm (or cool) in mild temperatures.",
+    "SuggestedRetailPrice": 50,
+    "Brand": {
+      "Id": "1105",
+      "Url": "/brand/1105/",
+      "ProductsUrl": "/products?Brand=1105",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+      "Name": "Kelty"
+    },
+    "ListPrice": 34.99,
+    "FinalPrice": 34.99
+  }
+}

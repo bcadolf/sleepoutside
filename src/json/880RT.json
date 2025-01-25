@@ -1,0 +1,53 @@
+{
+  "Result": {
+    "Id": "880RT",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/880rt/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/880rt/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Ajax Tent - 2-Person, 3-Season",
+    "Name": "Marmot Ajax Tent - 2-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~80.jpg",
+      "PrimaryMedium": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg",
+      "PrimaryLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~320.jpg",
+      "PrimaryExtraLarge": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season~a~880rt_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season~a~880rt_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Pale Pumpkin/Terracotta",
+        "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/880rt-01.jpg",
+        "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
+    "SuggestedRetailPrice": 275,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 179.99,
+    "FinalPrice": 179.99
+  }
+}
