@@ -242,6 +242,18 @@ button {
   text-align: center;
 }
 
+.product-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.product-category {
+  text-align: center;
+  padding: 0.5em;
+  cursor: pointer;
+}
 @media screen and (min-width: 500px) {
   body {
     max-width: 1080px;
