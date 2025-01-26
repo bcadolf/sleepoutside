@@ -2,7 +2,6 @@ import { getLocalStorage, setLocalStorage } from './utils.mjs';
 
 function makeProductCardHtml(product) {
   let basePrice = product.ListPrice;
-  console.log(product);
   let priceHtml = `<p class="product-card__price">$${product.ListPrice}</p>`;
   if ('SuggestedRetailPrice' in product) {
     basePrice = product.SuggestedRetailPrice;
