@@ -1,13 +1,23 @@
 import { getLocalStorage, setLocalStorage } from './utils.mjs';
 
 function makeProductCardHtml(product) {
+  let basePrice = product.ListPrice;
+  console.log(product);
+  let priceHtml = `<p class="product-card__price">$${product.ListPrice}</p>`;
+  if ('SuggestedRetailPrice' in product) {
+    basePrice = product.SuggestedRetailPrice;
+  }
+  if (basePrice != product.FinalPrice) {
+    priceHtml = `<p class="product-card__price">Original Price: $<del>${basePrice}</del></p>
+    <p class="product-card__final-price">Discounted price: $${product.FinalPrice} (save $${(basePrice - product.FinalPrice).toFixed(2)})</p>`;
+  }
   return `<section class="product-detail">
       <h3>${product.Brand.Name}</h3>
       <h2 class="divider">${product.NameWithoutBrand}</h2>
       <img class="divider" 
       src="${product.Image}"
       alt="${product.NameWithoutBrand}"/>
-      <p class="product-card__price">$${product.ListPrice}</p>
+      ${priceHtml}
       <p class="product__color">${product.Colors.ColorName}</p>
       <p class="product__description">${product.DescriptionHtmlSimple}</p>
       <div class="product-detail__add">
