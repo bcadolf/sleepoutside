@@ -20,9 +20,17 @@ export default class ProductData {
     const data = await convertToJson(response);
     return data.Result;
   }
-  async findProductById(id) {
-    const response = await fetch(baseURL + `/${id}.json`);
+  // altered to fit new format after product page display issues with json consolidation.
+  async findProductById(category, id) {
+    const response = await fetch(baseURL + `/${category}.json`);
     const data = await convertToJson(response);
-    return data.Result;
+    const product = data.Result.find(product => product.Id === id);
+    if (product) {
+      return product;
+    } else {
+      throw new Error('Product not found');
+    }
   }
+
 }
+

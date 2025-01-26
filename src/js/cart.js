@@ -63,7 +63,7 @@ function calculateSubtotal() {
       subtotal += cost;
     }
     cartSubtotal.classList.remove('hide');
-    cartSubtotal.innerHTML = `Subtotal: ${subtotal}`;
+    cartSubtotal.innerHTML = `Subtotal: ${subtotal.toFixed(2)}`; // fixed rounding error set to two digits after dec
   } else {
     cartSubtotal.classList.add('hide');
   }
