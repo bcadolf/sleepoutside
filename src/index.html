@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,9 @@
     <title>Sleep Outside | Home</title>
     <link rel="stylesheet" href="/css/style.css" />
     <script src="js/main.js" type="module"></script>
+    <script src="js/product-listing.js" type="module"></script>
   </head>
+
   <body>
     <header class="divider" id="main-header"></header>
     <main class="divider">
@@ -29,46 +31,46 @@
           mission is to provide you with everything you need to do this
           comfortably at an affordable price.
         </p>
-      </section>
-      <section class="products">
-        <ul class="product-grid">
-          <li>
-            <a href="product-listing/index.html?category=tents"
-              ><img
-                src="images/category-icons/noun_Tent_3544767.svg"
+        <div class="product-categories">
+          <div class="product-category">
+            <a href="product_listing/?category=tents">
+              <img
+                src="public/images/tent.svg"
                 alt="Tent Icon from Noun Project: Mustofa Bayu"
               />
-              <h2>Tents</h2>
+              <div>Tents</div>
             </a>
-          </li>
-          <li>
-            <a href="product-listing/index.html?category=backpacks"
-              ><img
-                src="images/category-icons/noun_carrier bag_3544771.svg"
+          </div>
+          <div class="product-category">
+            <a href="product_listing/?category=backpacks">
+              <img
+                src="public/images/backpack.svg"
                 alt="Backpack Icon from Noun Project: Mustofa Bayu"
               />
-              <h2>Backpacks</h2>
+              <div>Backpacks</div>
             </a>
-          </li>
-          <li>
-            <a href="product-listing/index.html?category=sleeping-bags"
-              ><img
-                src="images/category-icons/noun_Sleeping Bag_3544775.svg"
+          </div>
+          <div class="product-category">
+            <a href="product_listing/?category=sleeping-bags">
+              <img
+                src="public/images/sleeping-bag.svg"
                 alt="Sleeping Bag Icon from Noun Project: Mustofa Bayu"
               />
-              <h2>Sleeping Bags</h2>
+              <div>Sleeping Bags</div>
             </a>
-          </li>
-          <li>
-            <a href="product-listing/index.html?category=hammocks"
-              ><img
-                src="images/category-icons/noun_Hammock_791143.svg"
+          </div>
+          <div class="product-category">
+            <a href="product_listing/?category=hammocks">
+              <img
+                src="public/images/hammock.svg"
                 alt="Hammock Icon from Noun Project: Paul Richard"
               />
-              <h2>Hammocks</h2>
+              <div>Hammocks</div>
             </a>
-          </li>
-        </ul>
+          </div>
+          <!-- <h2>Top Products</h2> -->
+          <!-- <ul class="product-list"></ul> -->
+        </div>
       </section>
     </main>
     <footer id="main-footer"></footer>
