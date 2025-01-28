@@ -1,3 +1,4 @@
+
 import { getLocalStorage, setLocalStorage } from './utils.mjs';
 
 function makeProductCardHtml(product) {
@@ -55,6 +56,6 @@ export default class ProductDetails {
 
   renderProductDetails(selector) {
     const element = document.querySelector(selector);
-    element.innerHTML = makeProductCardHtml(this.product);
+    element.insertAdjacentHTML('afterBegin', makeProductCardHtml(this.product));
   }
 }
