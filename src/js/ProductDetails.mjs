@@ -1,4 +1,5 @@
 
+import ProductData from './ProductData.mjs';
 import { getLocalStorage, setLocalStorage } from './utils.mjs';
 
 function makeProductCardHtml(product) {
@@ -43,7 +44,10 @@ export default class ProductDetails {
     document
       .getElementById('addToCart')
       .addEventListener('click', this.addToCart.bind(this));
-  }
+
+       //eslint-disable-next-line no-console  
+      console.log(ProductData) 
+      }
 
   addToCart() {
     // get the current cart from local storage
