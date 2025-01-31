@@ -63,10 +63,14 @@ function calculateSubtotal() {
       subtotal += cost;
     }
     cartSubtotal.classList.remove('hide');
-    cartSubtotal.innerHTML = `Subtotal: ${subtotal}`;
+    cartSubtotal.innerHTML = `Subtotal: ${subtotal} <button id=checkout>Continue to Checkout</button>`; // added checkout button
   } else {
     cartSubtotal.classList.add('hide');
   }
 }
 
 renderCartContents();
+
+document.getElementById('checkout').addEventListener('click', () => {
+  window.location.href = '../checkout/index.html';
+});
