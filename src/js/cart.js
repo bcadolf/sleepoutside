@@ -70,3 +70,7 @@ function calculateSubtotal() {
 }
 
 renderCartContents();
+
+document.getElementById('checkout').addEventListener('click', () => {
+  window.location.href = '../checkout/index.html';
+});

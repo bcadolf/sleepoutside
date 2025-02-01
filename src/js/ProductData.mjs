@@ -8,7 +8,7 @@ function convertToJson(res) {
   } else {
     throw new Error('Bad Response');
   }
-}
+}     
 
 export default class ProductData {
   constructor() {
