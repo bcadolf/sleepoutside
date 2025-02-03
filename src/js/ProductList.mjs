@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { RenderListWithTemplate } from './utils.mjs';
 
 function productCardTemplate(product) {
@@ -49,14 +50,20 @@ export default class ProductListing {
   }
 
   renderList(list) {
+    console.log('Verifying list element', this.listElement);
+    if (!this.listElement) {
+      console.error('Parent Element not found');
+      return;
+    }
+    
     RenderListWithTemplate(
       productCardTemplate,
       this.listElement,
       list,
-      'afterbegin',
-      true,
+      // 'afterbegin',
+      // true,
     );
-    
+
   }
 
   renderFilteredList() {
@@ -84,5 +91,4 @@ export default class ProductListing {
   }
 }
 
- //eslint-disable-next-line no-console  
- console.log('ProductList.mjs loaded');
+

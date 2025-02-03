@@ -1,28 +1,30 @@
+/* eslint-disable no-console */
 
-import ProductData from './ProductData.mjs';
-import { getLocalStorage, setLocalStorage } from './utils.mjs';
+import { setLocalStorage, getLocalStorage } from './utils.mjs';
 
 function makeProductCardHtml(product) {
   let basePrice = product.ListPrice;
-  let priceHtml = `<p class="product-card__price">$${product.ListPrice}</p>`;
+  let priceHtml = `<p class='product-card__price'>$${product.ListPrice}</p>`;
   if ('SuggestedRetailPrice' in product) {
     basePrice = product.SuggestedRetailPrice;
   }
   if (basePrice != product.FinalPrice) {
-    priceHtml = `<p class="product-card__price">Original Price: $<del>${basePrice}</del></p>
-    <p class="product-card__final-price">Discounted price: $${product.FinalPrice} (save $${(basePrice - product.FinalPrice).toFixed(2)})</p>`;
+    priceHtml = `<p class='product-card__price'>Original Price: $<del>${basePrice}</del></p>
+    <p class='product-card__final-price'>Discounted price: $${product.FinalPrice} (save $${(basePrice - product.FinalPrice).toFixed(2)})</p>`;
   }
-  return `<section class="product-detail">
+
+  return `<section class='product-detail'>
       <h3>${product.Brand.Name}</h3>
-      <h2 class="divider">${product.NameWithoutBrand}</h2>
-      <img class="divider" 
-      src="${product.Image}"
-      alt="${product.NameWithoutBrand}"/>
+      <h2 class='divider'>${product.NameWithoutBrand}</h2>
+      <img class='divider' 
+      src='${product.Images.PrimaryLarge}'
+      alt='${product.NameWithoutBrand}'/>
       ${priceHtml}
-      <p class="product__color">${product.Colors.ColorName}</p>
-      <p class="product__description">${product.DescriptionHtmlSimple}</p>
-      <div class="product-detail__add">
-        <button id="addToCart" data-id="${product.Id}">Add to Cart</button>
+      <p class='product-card__price'>$${product.FinalPrice}</p>
+      <p class='product__color'>${product.Colors[0].ColorName}</p>
+      <p class='product__description'>${product.DescriptionHtmlSimple}</p>
+      <div class='product-detail__add'>
+        <button id='addToCart' data-id='${product.Id}'>Add to Cart</button>
       </div>
     </section>`;
 }
@@ -36,7 +38,9 @@ export default class ProductDetails {
 
   async init() {
     // use our datasource to get the details for the current product. findProductById will return a promise! use await or .then() to process it
-    this.product = await this.dataSource.findProductById(this.productId);
+    console.log(this.productId);
+    this.product = await this.dataSource.findProductById(this.productId);    
+    
     // once we have the product details we can render out the HTML
     this.renderProductDetails('main');
     // once the HTML is rendered we can add a listener to Add to Cart button
@@ -44,10 +48,7 @@ export default class ProductDetails {
     document
       .getElementById('addToCart')
       .addEventListener('click', this.addToCart.bind(this));
-
-       //eslint-disable-next-line no-console  
-      console.log(ProductData) 
-      }
+  }
 
   addToCart() {
     // get the current cart from local storage
@@ -62,4 +63,6 @@ export default class ProductDetails {
     const element = document.querySelector(selector);
     element.insertAdjacentHTML('afterBegin', makeProductCardHtml(this.product));
   }
+
+
 }
