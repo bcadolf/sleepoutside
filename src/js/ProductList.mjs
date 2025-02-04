@@ -13,8 +13,8 @@ function productCardTemplate(product) {
 
   // If there is a discount, create the discount tag
   const discountIndicator = discount
-    ? `<p class = "discount-indicator">-${discount}% OFF</p>` : '';
-
+    ? `<p class = "discount-indicator">-${discount}% OFF</p>`
+    : '';
 
   return `<li class="product-card">
     <a href="/product_pages/index.html?product=${product.Id}">
@@ -35,35 +35,17 @@ export default class ProductListing {
     this.category = category;
     this.dataSource = dataSource;
     this.listElement = listElement;
-    // this.productList = {};
+    this.productList = [];
   }
 
   async init() {
     this.productList = await this.dataSource.getData(this.category);
     this.renderList(this.productList);
     document.querySelector('.title').innerHTML = this.category;
-
-    //Event Listener to dropdown order
-    document.getElementById('sort').addEventListener('change', (event) => {
-      this.sortProducts(event.target.value);
-    });
   }
 
   renderList(list) {
-    console.log('Verifying list element', this.listElement);
-    if (!this.listElement) {
-      console.error('Parent Element not found');
-      return;
-    }
-    
-    RenderListWithTemplate(
-      productCardTemplate,
-      this.listElement,
-      list,
-      // 'afterbegin',
-      // true,
-    );
-
+    RenderListWithTemplate(productCardTemplate, this.listElement, list);
   }
 
   renderFilteredList() {
@@ -71,8 +53,6 @@ export default class ProductListing {
       productCardTemplate,
       this.listElement,
       this.productList.slice(0, 4),
-      'afterbegin',
-      true,
     );
   }
 
@@ -90,5 +70,3 @@ export default class ProductListing {
     this.renderList(this.productList); //Re-renderize the list with the new order
   }
 }
-
-
