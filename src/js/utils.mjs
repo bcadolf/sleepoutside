@@ -68,6 +68,20 @@ export default async function loadHeaderFooter() {
   const footerElement = document.querySelector('footer');
   renderWithTemplate(headerTemplate, headerElement);
   renderWithTemplate(footerTemplate, footerElement);
+  shoppingCartCount();
+}
+
+export function shoppingCartCount() {
+  const cart = getLocalStorage('so-cart');
+  const cartLen = cart.length;
+  const cartCount = qs('.cart-count');
+  if (cartLen > 0) {
+    cartCount.textContent = cart.length;
+    cartCount.classList.remove('hide');
+  } else {
+    cartCount.textContent = 0;
+    cartCount.classList.add('hide');
+  }
 }
 
 // set a listener for both touchend and click
