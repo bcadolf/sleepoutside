@@ -1,12 +1,14 @@
-import ProductData from './ProductData.mjs';
-import ProductListing from './ProductList.mjs';
+/* eslint-disable no-console */
 import loadHeaderFooter, { getParams } from './utils.mjs';
+import ExternalServices from './ExternalServices.mjs';
+import ProductListing from './ProductList.mjs';
+
 
 loadHeaderFooter();
 
 const category = getParams('category');
-const dataSource = new ProductData();
-const listElement = document.querySelector('ul.product-list');
+const dataSource = new ExternalServices();
+const listElement = document.querySelector('.product-list');
 const listing = new ProductListing(category, dataSource, listElement);
 
 listing.init();
