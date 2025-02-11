@@ -73,14 +73,13 @@ export default async function loadHeaderFooter() {
 
 export function shoppingCartCount() {
   const cart = getLocalStorage('so-cart');
-  const cartLen = cart.length;
   const cartCount = qs('.cart-count');
-  if (cartLen > 0) {
-    cartCount.textContent = cart.length;
-    cartCount.classList.remove('hide');
-  } else {
+  if (cart === null || cart.length == 0) {
     cartCount.textContent = 0;
     cartCount.classList.add('hide');
+  } else {
+    cartCount.textContent = cart.length;
+    cartCount.classList.remove('hide');
   }
 }
 
