@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-const baseURL = 'http://server-nodejs.cit.byui.edu:3000/'; //use only for dev.
+// const baseURL = 'http://server-nodejs.cit.byui.edu:3000/'; //use only for dev.
 // const baseURL = 'http://wdd330-backend.onrender.com/checkout/'; // different endpoint week 04
-
+const baseURL = import.meta.env.VITE_SERVER_URL;
 
 async function convertToJson(res) {
   const data = await res.json();

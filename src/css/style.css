@@ -298,21 +298,21 @@ footer {
   font-weight: bold;
 }
 
-.color-option { 
-  border: none; 
-  background: none; 
+.color-option {
+  border: none;
+  background: none;
   cursor: pointer;
-  margin: 5px; 
-} 
+  margin: 5px;
+}
 
-.color-option img { 
-  width: 50px; 
-  height: 50px; 
-  border-radius: 30%; 
+.color-option img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
   border: 2px solid transparent;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .color-option img:hover {
-   border: 6px solid #b81e1e; 
-  }
+  border: 6px solid #b81e1e;
+}

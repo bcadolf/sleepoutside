@@ -3,7 +3,6 @@ import loadHeaderFooter, { getParams } from './utils.mjs';
 import ExternalServices from './ExternalServices.mjs';
 import ProductListing from './ProductList.mjs';
 
-
 loadHeaderFooter();
 
 const category = getParams('category');

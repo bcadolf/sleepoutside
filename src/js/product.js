@@ -25,5 +25,5 @@ async function initProductDetails() {
   }
 }
 document.addEventListener('DOMContentLoaded', () => {
-  initProductDetails()
+  initProductDetails();
 });
