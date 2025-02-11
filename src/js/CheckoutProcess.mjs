@@ -56,17 +56,19 @@ export default class CheckoutProcess {
         itemNumElement.innerText = this.list.length;
         // calculate the total of all the items in the cart
         const amounts = this.list.map((item) => item.FinalPrice);
-        this.itemTotal = amounts.reduce((sum, item) => sum + item);
+        this.itemTotal = Math.round(amounts.reduce((sum, item) => sum + item)*100)/100;
         summaryElement.innerText = '$' + this.itemTotal;
     }
     calculateOrdertotal() {
         this.shipping = 10 + (this.list.length - 1) * 2;
         this.tax = (this.itemTotal * 0.06).toFixed(2);
-        this.orderTotal = (
-            parseFloat(this.itemTotal) +
-            parseFloat(this.shipping) +
-            parseFloat(this.tax)
-        ).toFixed(2);
+        this.orderTotal =
+          Math.round(
+            (parseFloat(this.itemTotal) +
+              parseFloat(this.shipping) +
+              parseFloat(this.tax)) *
+              100,
+          ) / 100;
         this.displayOrderTotals();
     }
     displayOrderTotals() {
@@ -94,7 +96,7 @@ export default class CheckoutProcess {
             const res = await services.checkout(json);
             console.log(res);
             setLocalStorage('so-cart', []);
-            location.assign('/checkout/sucess.html');
+            location.assign('/checkout/success.html');
         } catch (err) {
             removeAllAlerts();
             for (let message in err.message) {

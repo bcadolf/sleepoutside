@@ -35,7 +35,8 @@ export default class ShoppingCart {
 
   calculateListTotal(list) {
     const amounts = list.map((item) => item.FinalPrice);
-    this.total = amounts.reduce((sum, item) => sum + item);
+    this.total =
+      Math.round(amounts.reduce((sum, item) => sum + item) * 100) / 100;
     console.log('Cart Total:', this.total); // add 04/02
   }
 

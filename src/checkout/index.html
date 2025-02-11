@@ -8,7 +8,8 @@
 
     <title>Sleep Outside | Checkout</title>
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- <script src="/js/main.js" type="module"></script> -->
     <script src="../js/checkout.js" type="module"></script>
   </head>
 
@@ -21,23 +22,23 @@
         <form name="checkout" action="" method="post">
           <fieldset>
             <legend>Shipping Information</legend>
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required />
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required />
-            <label for="streetAddress">Street Address:</label>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required />
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required />
+            <label for="street">Street Address:</label>
             <input
               type="text"
-              id="streetAddress"
-              name="streetAddress"
+              id="street"
+              name="street"
               required
             />
             <label for="city">City:</label>
             <input type="text" id="city" name="city" required />
             <label for="state">State:</label>
             <input type="text" id="state" name="state" required />
-            <label for="zipCode">Zip Code:</label>
-            <input type="text" id="zipCode" name="zipCode" required />
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip" required />
           </fieldset>
           <fieldset>
             <legend>Payment</legend>
